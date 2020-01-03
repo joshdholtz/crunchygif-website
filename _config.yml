@@ -1,0 +1,12 @@
+# Site settings
+title: CrunchyGIF - Ezpz video to GIF
+email: me@joshholtz.com
+description: CrunchyGIF is the easiest way to create GIFs from video files! Just drag your video or screen recording into CrunchyGIF and wait a little bit for your GIF to be created.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "crunchygif.app" # the base hostname & protocol for your site
+
+twitter_username: crunchygif
+github_username: joshdholtz
+
+# Build settings
+markdown: kramdown
