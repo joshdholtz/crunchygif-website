@@ -35,6 +35,7 @@
 
 // variables.less
 $theme-primary: #E51A37;
+$theme-secondary: #E51A37;
 $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -42,3 +43,21 @@ $theme-dark: #222;
         "mixins",
         "base"
 ;
+
+// CUSTOM
+
+img.btn-logo {
+        width: 100%;
+        max-width: 600px;   
+        height: auto;
+}
+
+section#donate {
+        @include background-cover;
+        background-position: top right;
+        background-image: url('../img/header.svg');
+}
+
+// .btn-light {
+//         @include button-variant(#222, #FFF, #FFF);
+// }
