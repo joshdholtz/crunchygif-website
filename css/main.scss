@@ -52,6 +52,12 @@ img.btn-logo {
         height: auto;
 }
 
+img.gif {
+        width: 100%;
+        max-width: 600px;   
+        height: auto;
+}
+
 section#donate {
         @include background-cover;
         background-position: top right;
